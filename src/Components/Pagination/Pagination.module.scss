@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 40px 0;
+  gap: 40px;
+  @media (max-width: 730px) {
+    gap: 10px;
+  }
+}
+
+.active {
+  color: red;
+}
